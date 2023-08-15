@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - function main begins program execution
  *
@@ -12,7 +12,7 @@ int main(void)
 
 	while (message[i] != '\0')
 	{
-		putchar(message[i]);
+		_putchar(message[i]);
 		i++;
 	}
 	return (0);

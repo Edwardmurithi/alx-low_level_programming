@@ -12,4 +12,9 @@
 
 ## How Makefiles work.
 ### Basic concept of dependances.
-- Dependencies in a Makefile specify relationships between files. If a file (target) depends on other files (dependencies), it will be rebuilt whenever those dependencies change
+- Dependencies in a Makefile specify relationships between files. If a file (target) depends on other files (dependencies), it will be rebuilt whenever those dependencies change.
+
+```makefile
+main.o: main.c defs.h
+    gcc -c main.c
+```

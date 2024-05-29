@@ -18,3 +18,22 @@
 main.o: main.c defs.h
     gcc -c main.c
 ```
+
+## Installing the Make Utility
+
+- Installation on linux
+```sh
+sudo apt-get update
+sudo apt-get install build-essential
+```
+
+- Installation on MacOS
+```sh
+xcode-select --install
+```
+
+- Installation on windows (using tool like MinGW or Cygwin)
+
+
+
+
